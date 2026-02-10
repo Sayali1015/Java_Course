@@ -17,6 +17,7 @@ public class WideningConversion {
         System.out.println("Int value  : " + b);
     }
 }
+
 📌 Why allowed?
 Because smaller data fits safely into a larger data type.
 =============================================================================================================
