@@ -104,7 +104,7 @@
         System.out.println("m ^ n : " + (m ^ n));   // XOR
         System.out.println("~m    : " + (~m));      // NOT
     }
-}
- {
+   }
+ 
     
-}
+
