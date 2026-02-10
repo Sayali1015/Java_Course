@@ -32,6 +32,7 @@ public class NarrowingError {
         // Reason: int is larger than byte (possible data loss)
     }
 }
+
 📌 Java does not allow narrowing automatically.
 ===============================================================================================================
 ✅ 3. Type Casting (Explicit Narrowing)
@@ -49,11 +50,14 @@ public class TypeCasting {
         System.out.println("Byte value : " + a);
     }
 }
+
 📌 Output Explanation
 130 - 256 = -126
+
 ========================
 So output will be:
 Byte value : -126
+
 ====================================================================================================================
 ✅ 4. Your Example – Corrected & Explained
 public class TypeConversion {
@@ -69,6 +73,7 @@ public class TypeConversion {
         System.out.println(a);
     }
 }
+
 ==================================================================================================================
 ✅ 5. Double → Int Casting Example (Common Interview One)
 public class DoubleToInt {
@@ -82,10 +87,12 @@ public class DoubleToInt {
         System.out.println("Int    : " + i);
     }
 }
+
 ===================
 📌 Output:
 Double : 99.99
 Int    : 99
+
 ======================================================================================================================
 🔹 Summary Table 
 Conversion	Automatic	Data Loss
