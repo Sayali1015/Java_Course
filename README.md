@@ -21,8 +21,8 @@ public class WideningConversion {
 Because smaller data fits safely into a larger data type.
 =============================================================================================================
 2. Narrowing Type Conversion (Not Allowed Automatically)
-public class NarrowingError {
 
+public class NarrowingError {
     public static void main(String[] args) {
 
         int b = 130;
