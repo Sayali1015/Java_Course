@@ -16,5 +16,13 @@ public class Multi_Dimenstional_Array {
             }
             System.out.println();
         }
+
+        //Enhanced For Loop
+        for(int n[] : nums){
+            for(int m: n){
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
     }
 }
