@@ -1,6 +1,6 @@
 public class Array {
     public static void main(String[] args) {
-        int num[] = {1,2,3,4};
+        // int num[] = {1,2,3,4};
         int num1[] = new int [4];
         num1[0] = 10;
         num1[1] = 6;
