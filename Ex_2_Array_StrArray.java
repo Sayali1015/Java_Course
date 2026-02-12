@@ -32,10 +32,13 @@ public class Ex_2_Array_StrArray {
         students[1] = s2;
         students[2] = s3;
 
-        for(int i=0; i<=students.length;i++){
-            System.out.println(students[i].name+ " : "+ students[i].marks+ " : "+ students[i].rollno);
-        }
-        
+        for(int i = 0; i < students.length; i++){
+        System.out.println(students[i].name + " : " 
+        + students[i].marks + " : " 
+        + students[i].rollno);
+}
+
+
         // int nums[] = new int[4];
         // nums[0] = 5;
         // nums[1] = 3;
