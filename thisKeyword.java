@@ -1,10 +1,11 @@
 //this keyword represents the current object
 class Human{
 String name ="kunal";
+    //every variable here is a instance or a global variable
     private String colour = "Pink"; 
     private long phone_number = 9021628100l;
     private String surname; // this surname variable here is the global or instance varibale 
-    private String address; // when ever we have same variable name of instance variable/ global variable and local variable the we use this keyword to pint towards gobal variable as first priority is given to the local variable
+    private String address; // when ever we have same variable name of instance variable/ global variable and local variable the we use this keyword to point towards gobal variable as first priority is given to the local variable
 
     public String getColour(){
     return colour;
