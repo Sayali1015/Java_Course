@@ -4,6 +4,12 @@
 
 //to use mutable strings we have two different classes in java those are : String buffer or String builder
 //both are very similar and both provide you a way to implement a mutable string 
+
+//Difference between String buffer and string builder : there is only one difference that is StringBuffer is Thread safe and StringBuilder is not.
+//What is thread safe means:....
+
+
+
 public class string {
     public static void main(String[] args) {
         String name = new String("Sayali"); // Syntax to create a string variable
