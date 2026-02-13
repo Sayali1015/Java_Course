@@ -102,6 +102,8 @@ int → byte	    ❌ No 	✅ Yes
 double → int	  ❌ No	✅ Yes
 
 
-===================================================================================================
+=================================================================================================
+
+
 Question : Why in the main method we have static keyword?
 Ans: Because if we dont make main static, if we dont mention static keyword that means main method becomes a nonstatic method which means if you want to call main we have to first create a object of the class i.e classname i.e "Demo", that means you cannot call main without the object of demo , we know that main is the starting point of the execution if the execution is not started how can we create a object of demo so the deadlock occurs thats why we use static keyword.
