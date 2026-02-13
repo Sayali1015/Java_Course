@@ -1,4 +1,4 @@
-
+//this keyword represents the current object
 class Human{
 String name ="kunal";
     private String colour = "Pink"; 
