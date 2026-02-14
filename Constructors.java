@@ -35,9 +35,6 @@ class Human{
     public void setname(String name){ 
         this.name = name;
     }
-
-    
-
 }
 
 public class Constructors {
