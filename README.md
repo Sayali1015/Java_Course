@@ -116,5 +116,5 @@ Naming Convention in Java
 3. variable and method - marks , show() (First Letter is small in varibales and methods).
 4. Constants - PIE,  BRAND (All letters are capital)
 5. Camel Casing - showMyMarks
-6. Snake Casinh - hello_world
+6. Snake Casing - hello_world
 7. Constructor - Calculator()
