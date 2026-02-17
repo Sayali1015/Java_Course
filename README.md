@@ -107,3 +107,14 @@ double → int	  ❌ No	✅ Yes
 
 Question : Why in the main method we have static keyword?
 Ans: Because if we dont make main static, if we dont mention static keyword that means main method becomes a nonstatic method which means if you want to call main we have to first create a object of the class i.e classname i.e "Demo", that means you cannot call main without the object of demo , we know that main is the starting point of the execution if the execution is not started how can we create a object of demo so the deadlock occurs thats why we use static keyword.
+
+===================================================================================================
+
+Naming Convention in Java 
+1. It follows Camel Casing.
+2. Class and Interface name starts with Capital letter : class Calculator , Runable
+3. variable and method - marks , show() (First Letter is small in varibales and methods).
+4. Constants - PIE,  BRAND (All letters are capital)
+5. Camel Casing - showMyMarks
+6. Snake Casing - hello_world
+7. Constructor - Calculator()
