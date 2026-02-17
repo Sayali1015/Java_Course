@@ -1,3 +1,4 @@
+
 Core Java: Type Conversion & Type Casting
 
 📌 Key Idea (Very Important)
@@ -150,4 +151,4 @@ ex:  import tools.Cal;
 =========================================================================================================================================================================================
 Access Modifiers in Java
 
-<img width="400" height="400" alt="Screenshot 2026-02-17 204658" src="https://github.com/user-attachments/assets/995918b5-cd42-4d3e-9487-50ef1e03bf71" />
+<img width="400" height="400" alt="Screenshot 2026-02-17 213244" src="https://github.com/user-attachments/assets/44e72eef-c6f0-4dea-9814-8704f93e8f89" />
