@@ -122,4 +122,19 @@ Naming Convention in Java
 
 Packages in Java :
 1. we can store the file in the package by using package keyword in the top of the code.
-2. 
+2. if the file is not a part the folder or the main method class is outside the folder the we can access other class present inside the package by following way:
+-  import packageName ClassName;
+-  Example : lets consider a package tools:
+-  tools
+  --Cal.java
+  --AdvCal.java
+-Demo.java
+Then you need to access cal and advcal in demo like this :
+ex:  import tools.Cal;
+     import tools.AvdCal;
+        public class Demo{
+            public static void main(String [] args){
+                Cal.obj = new Cal();
+                AdvCal.obj1 = new AdvCal();
+      } 
+  } 
