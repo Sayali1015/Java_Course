@@ -137,4 +137,10 @@ ex:  import tools.Cal;
                 Cal.obj = new Cal();
                 AdvCal.obj1 = new AdvCal();
       } 
-  } 
+}
+
+3.Java internally has lot of classes.
+-for example : ArrayList etc
+4. Whichever inbuilt class we use in java belongs to a package.
+5. java.lang is bydefaulted imported in java even if we cant see it is there. System.out.print (where System belongs to lang package).Not import java.lang but import java.lang.*
+6. what is this * : now in one particular folder you have multiple files and if we need or want all the files then we can simply use * 
