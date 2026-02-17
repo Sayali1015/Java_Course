@@ -118,3 +118,8 @@ Naming Convention in Java
 5. Camel Casing - showMyMarks
 6. Snake Casing - hello_world
 7. Constructor - Calculator()
+===================================================================================================
+
+Packages in Java :
+1. we can store the file in the package by using package keyword in the top of the code.
+2. 
