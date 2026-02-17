@@ -100,6 +100,8 @@ byte → int	    ✅ Yes	❌ No
 int → double	  ✅ Yes	❌ No
 int → byte	    ❌ No 	✅ Yes
 double → int	  ❌ No	✅ Yes
+<img width="570" height="514" alt="Screenshot 2026-02-17 204658" src="https://github.com/user-attachments/assets/995918b5-cd42-4d3e-9487-50ef1e03bf71" />
+<img width="570" height="513" alt="image" src="https://github.com/user-attachments/assets/647bdc44-f808-42c4-b692-731fd54b21e9" />
 
 
 =================================================================================================
@@ -144,3 +146,5 @@ ex:  import tools.Cal;
 4. Whichever inbuilt class we use in java belongs to a package.
 5. java.lang is bydefaulted imported in java even if we cant see it is there. System.out.print (where System belongs to lang package).Not import java.lang but import java.lang.*
 6. what is this * : now in one particular folder you have multiple files and if we need or want all the files then we can simply use * 
+
+=========================================================================================================================================================================================
