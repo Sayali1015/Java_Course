@@ -14,6 +14,9 @@ final class Calculator{
             // we cannot extend the final class Calculator because it is a final class
     // }
 
+    public void add(int a, int b){
+       System.out.println(a+b);
+    }
 
 
 
@@ -32,12 +35,6 @@ final class Calculator{
             // System.out.println("by sayali");
         }
     }
-
-
-    public void add(int a, int b){
-       System.out.println(a+b);
-    }
-
 
 
 
