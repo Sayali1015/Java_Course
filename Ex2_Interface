@@ -1,0 +1,59 @@
+//Point to remember about interface:
+//class - class  ---> extends   
+//interface - interface  ---> extends
+//class - interface ---> implements
+
+
+//we will get only methods in interface because we are doing implements not extends . that why its static and final by default.
+interface A{
+
+    //by default all the variables in interface are public static final and all the methods are public abstract.
+    int age = 22; //these varibales are final and static 
+    String name = "Sayali";
+    void show();
+    void display();
+    
+}
+
+
+//we can implement multiple interfaces in a class.
+interface X{
+    void run();
+}
+
+interface Y extends X{
+
+}
+
+class B implements A,Y{
+
+   
+    public void show() {
+      System.out.println("show method in class B");
+    }
+
+    public void display() {
+        System.out.println("display method in class B");
+    }
+
+    public void run(){
+        System.out.println("run method in class B");
+    }
+    
+} 
+
+public class Ex2_Interface {
+    public static void main(String[] args) {
+        A obj;
+        obj = new B();
+        obj.show(); 
+        obj.display();
+
+
+        X obj1 = new B();
+        obj1.run();
+
+        System.out.println(A.age);
+        System.out.println(A.name);
+    }
+}
