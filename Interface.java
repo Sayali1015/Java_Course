@@ -1,17 +1,15 @@
 
-abstract class Computer{
-    public abstract void code();
-    
+interface Computer{
+     void code();
 }
 
-
-class Laptop extends Computer{
+class Laptop implements Computer{
     public void code(){
         System.out.println("code , compile and run....");
     }
 }
 
-class Desktop extends Computer{
+class Desktop implements Computer{
     public void code(){
         System.out.println("code , compile and run : Faster.........");
     }
