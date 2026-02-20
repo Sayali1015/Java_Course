@@ -1,0 +1,41 @@
+enum Laptop{
+    DELL(1000), HP(800), LENOVO(), MACBOOK(2000);
+    private int price;
+
+    private Laptop(){
+        price = 908;
+    }
+
+    private Laptop(int price){
+        this.price = price;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+}
+
+}
+public class Ex4_Enum {
+    public static void main(String[] args) {
+        
+        // Laptop l1 = Laptop.DELL;
+        // System.out.println(l1.name()+ " : "+l1.getPrice());
+
+        // Laptop l2 = Laptop.HP;
+        // System.out.println(l2.name()+ " : "+l2.getPrice());
+
+        // Laptop l3 = Laptop.LENOVO;
+        // System.out.println(l3.name()+ " : "+l3.getPrice());
+
+        // Laptop l4 = Laptop.MACBOOK;
+        // System.out.println(l4.name()+ " : "+l4.getPrice());
+
+        for (Laptop l : Laptop.values()){
+            System.out.println(l.name() + " : " + l.getPrice());
+        }
+    }
+}
