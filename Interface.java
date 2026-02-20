@@ -1,4 +1,4 @@
-
+//Check Ex2_Interface
 interface Computer{
      void code();
 }
