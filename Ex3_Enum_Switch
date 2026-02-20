@@ -1,0 +1,30 @@
+enum Status{
+    Running, Failed, Pending, Success;
+}
+
+class Ex3_Enum_Switch {
+    public static void main(String[] args) {
+        Status s = Status.Success;
+
+        switch(s){
+            case Running: 
+                System.out.println("Running");
+                break;
+
+            case Failed:
+                System.out.println("Failed");
+                break;
+
+            case Pending:
+                System.out.println("Pending");
+                break;
+
+            case Success:
+                System.out.println("Success");
+                break;
+
+             default:
+                System.out.println("Invalid Status");
+        }
+    }
+}
