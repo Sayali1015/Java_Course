@@ -152,3 +152,31 @@ ex:  import tools.Cal;
 Access Modifiers in Java
 
 <img width="400" height="400" alt="Screenshot 2026-02-17 213244" src="https://github.com/user-attachments/assets/44e72eef-c6f0-4dea-9814-8704f93e8f89" />
+
+===========================================================================================================================================================================================
+Types of Interface:
+we can divide it in three parts :
+1. Normal Interface.
+2. Functional Interface. / SAM (Single Abstract Method)
+3. Marker Interface.
+
+
+1. Normal Interface : In interface we can only declare methods. All the methods in interface are public abstract.
+2. Whenever we have interface with 2 or more methods is called as normal interface.
+   example : interface ABC {
+       void show();
+       void display();
+   }
+
+2.Functional Interface. / SAM (Single Abstract Method) : This simply means if you have the interface lets consider the interface name ABC and in this interface if you have only one method that is called a single Abstract method interface i.e SAM and we can also call it as a funtional interface 
+    example : inteface ABC{
+    void show();
+    }
+
+3.Marker Interface: A marker interface is a interface which has no methods / a blank interface 
+    question : why someone will create a blank interface : 
+    Answer: to update something to the complier (serialization which means we can take the object and can you can store the values of the object in your hard drive) 
+    Example : interface ABC{
+    
+    }
+
