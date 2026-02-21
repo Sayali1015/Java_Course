@@ -154,6 +154,7 @@ Access Modifiers in Java
 <img width="400" height="400" alt="Screenshot 2026-02-17 213244" src="https://github.com/user-attachments/assets/44e72eef-c6f0-4dea-9814-8704f93e8f89" />
 
 ===========================================================================================================================================================================================
+
 Types of Interface:
 we can divide it in three parts :
 1. Normal Interface.
@@ -177,6 +178,5 @@ we can divide it in three parts :
     question : why someone will create a blank interface : 
     Answer: to update something to the complier (serialization which means we can take the object and can you can store the values of the object in your hard drive) 
     Example : interface ABC{
-    
     }
 
