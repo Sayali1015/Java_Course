@@ -180,3 +180,11 @@ we can divide it in three parts :
     Example : interface ABC{
     }
 
+=====================================================================================================================================================================================================================
+
+Exceptions : Exceptions are nothing but run time errors
+Types of Errors:
+1. Compile Time Error
+2. Run Time Error -- Exceptions can be handle
+3. Logical Error
+
