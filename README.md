@@ -188,3 +188,19 @@ Types of Errors:
 2. Run Time Error -- Exceptions can be handle
 3. Logical Error
 
+====================================================================================================
+
+Hierarchy Exception:
+  Object
+    |
+Throwable : Error and Exception
+              |          |-------------- Runtime Exception  ---------------------------------SQL Exception
+        ThreadDeath                |-- Arithematic Exception                       |--IOException (Checked Exceptions)
+        IOError                    |-- ArrayIndexOutOfBound                  
+Virtual Machine Error              |-- NullPointException
+OutofMemory                        (this are called Unchecked Exceptions)
+(All this errors cannot be handled)
+
+
+    
+
