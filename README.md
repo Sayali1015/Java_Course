@@ -201,6 +201,23 @@ Virtual Machine Error              |-- NullPointException
 OutofMemory                        (this are called Unchecked Exceptions)
 (All this errors cannot be handled)
 
+================================================================================================================================
+
+LVTI - Local Variable Type Inference (Update in java 10) we can have var keyword in java in the place of DataType
+Example : older way : int num = 9;
+                   New way :  var num = 9;
+And this is applicable only for local variable
+
+If we want to use a var keyword it is compulsary to initizate it without initizating it will give you an error 
+Example : int c;
+                   var c;  *//error*
+
+We can use var Keyword as variable name , keyword as well but cannot give var as a classname 
+Example : int var = 10; ✅
+                   var = 10; ✅
+                    class var{
+                      }❌
+
 
     
 
